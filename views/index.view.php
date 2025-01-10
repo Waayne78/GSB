@@ -15,35 +15,34 @@
     <?php include '../partials/header.php'; ?>
 
     <main>
-        <section class="hero">
-            <div class="hero-content">
-                <div class="text-content">
-                    <h1>Vivez en meilleure santé</h1>
-                    <p>Facilitez vos démarches médicales avec notre plateforme rapide et intuitive.</p>
-                    <div class="search-bar">
-                        <input type="text" placeholder="Nom, spécialité, établissement..." />
-                        <input type="text" placeholder="Où ?" />
-                        <button>Rechercher</button>
-                    </div>
-                </div>
-
+    <section class="hero">
+    <div class="hero-content">
+        <div class="text-content">
+            <h1>Facilitez les échanges entre laboratoires et praticiens</h1>
+            <p>Prenez facilement rendez-vous avec nos représentants GSB pour commander des médicaments et obtenir des informations détaillées.</p>
+            <div class="search-bar">
+                <input type="text" placeholder="Nom du laboratoire" />
+                <input type="text" placeholder="Praticien spécialisé" />
+                <button>Rechercher</button>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
 
         <section class="features">
             <h2>Nos Services</h2>
             <div class="cards">
                 <div class="card">
                     <h3>Réservez facilement</h3>
-                    <p>Accédez à un large choix de médecins et horaires disponibles.</p>
+                    <p>Accédez à un large choix de représentants GSB pour vos commandes de médicaments.</p>
                 </div>
                 <div class="card">
-                    <h3>Suivi des rendez-vous</h3>
-                    <p>Consultez et gérez vos rendez-vous en un clic.</p>
+                    <h3>Suivi des commandes</h3>
+                    <p>Suivez l'avancement de vos commandes de médicaments en temps réel.</p>
                 </div>
                 <div class="card">
                     <h3>Plateforme sécurisée</h3>
-                    <p>Vos données sont protégées avec les meilleurs standards.</p>
+                    <p>Vos données et commandes sont protégées avec les meilleurs standards de sécurité.</p>
                 </div>
             </div>
         </section>
@@ -54,23 +53,23 @@
             <div class="stats">
                 <div class="stat">
                     <h3>500+</h3>
-                    <p>Médecins inscrits</p>
+                    <p>Praticiens inscrits</p>
                 </div>
                 <div class="stat">
                     <h3>2000+</h3>
-                    <p>Rendez-vous réservés chaque mois</p>
+                    <p>Commandes réservées chaque mois</p>
                 </div>
                 <div class="stat">
                     <h3>98%</h3>
-                    <p>Taux de satisfaction des utilisateurs</p>
+                    <p>Taux de satisfaction des praticiens</p>
                 </div>
             </div>
         </section>
 
         <!-- Appel à l'Action -->
         <section class="cta">
-            <h2>Prêt à prendre rendez-vous ?</h2>
-            <p>Rejoignez des milliers d'utilisateurs satisfaits et prenez votre rendez-vous médical dès aujourd'hui.</p>
+            <h2>Prêt à commander vos médicaments ?</h2>
+            <p>Rejoignez des milliers de praticiens qui bénéficient déjà de nos services pour commander des médicaments facilement.</p>
             <button>Prendre un rendez-vous</button>
         </section>
     </main>
@@ -79,3 +78,4 @@
 </body>
 
 </html>
+    

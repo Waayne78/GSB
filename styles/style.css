@@ -66,6 +66,7 @@ nav {
 }
 
 /* Hero Section */
+/* Hero Section */
 .hero {
   text-align: center;
   padding: 50px;
@@ -87,31 +88,48 @@ nav {
   margin-top: 30px;
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 15px;
 }
 
 .hero .search-bar input {
-  padding: 10px;
+  padding: 12px;
   font-size: 1rem;
-  border: 1px solid #ddd;
-  border-radius: 5px;
+  border: 2px solid #ddd;
+  border-radius: 30px; /* Bordures plus arrondies */
   flex: 1;
-  max-width: 300px;
+  max-width: 320px;
+  background: #ffffff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero .search-bar input:focus {
+  border-color: #1d3557; /* Changer la couleur de la bordure au focus */
+  box-shadow: 0 0 5px rgba(29, 53, 87, 0.5); /* Ombre au focus */
 }
 
 .hero .search-bar button {
-  padding: 10px 20px;
+  padding: 12px 20px;
   font-size: 1rem;
   background: #1d3557;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 30px; /* Bordures plus arrondies */
   cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
 }
 
 .hero .search-bar button:hover {
   background: #0d2747;
+  transform: translateY(-3px); /* Effet de survol */
 }
+
+/* Option de style pour des icônes dans la barre de recherche */
+.hero .search-bar input::placeholder {
+  color: #888;
+  font-style: italic;
+}
+
+
 
 /* Features (Cards) */
 .features {
@@ -225,17 +243,19 @@ nav {
 
 .cta button {
   padding: 12px 30px;
-  font-size: 1.2rem;
-  background: #1d3557;
-  color: white;
-  border: none;
-  border-radius: 5px;
+  background-color: #ffffff; 
+  color: #14508b; 
+  border: 1px solid #14508b; 
+  border-radius: 30px;
+  font-size: 1.1rem;
   cursor: pointer;
-  transition: background 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .cta button:hover {
-  background: #0d2747;
+  background-color: #14508b; 
+  color: #ffffff; 
+  transform: translateY(-3px);
 }
 
 @media (max-width: 768px) {

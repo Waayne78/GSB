@@ -1,5 +1,4 @@
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +8,6 @@
     <link rel="stylesheet" href="../styles/header.css">
     <link rel="stylesheet" href="../styles/footer.css">
 </head>
-
 <body>
     <?php 
     include '../partials/header.php';
@@ -17,38 +15,34 @@
 
     <main>
         <section class="services-section">
-            <h1>Explorez Nos Services Médicaux</h1>
-            <p>Choisissez parmi notre gamme de services spécialisés pour prendre rendez-vous avec nos experts médicaux.</p>
+            <h1>Explorez Nos Services pour Praticiens</h1>
+            <p>Choisissez parmi nos services pour prendre rendez-vous avec nos représentants GSB et commander des médicaments.</p>
             <div class="services-grid">
                 <div class="service-card">
-                    <div class="service-image" style="background-image: url('images/general-consultation.jpg');"></div>
-                    <h3>Consultation Générale</h3>
+                    <div class="service-image" style="background-image: url('images/consultation-laboratory.jpg');"></div>
+                    <h3>Commande de Médicaments</h3>
+                    <p>Prendre un rendez-vous pour discuter de vos besoins en médicaments.</p>
                 </div>
                 <div class="service-card">
-                    <div class="service-image" style="background-image: url('images/pediatrics.jpg');"></div>
-                    <h3>Pédiatrie</h3>
+                    <div class="service-image" style="background-image: url('images/medicines-consultation.jpg');"></div>
+                    <h3>Consultation sur les Médicaments</h3>
+                    <p>Obtenez des informations détaillées sur les médicaments et leurs utilisations.</p>
                 </div>
                 <div class="service-card">
-                    <div class="service-image" style="background-image: url('images/cardiology.jpg');"></div>
-                    <h3>Cardiologie</h3>
-                </div>
-                <div class="service-card">
-                    <div class="service-image" style="background-image: url('images/dermatology.jpg');"></div>
-                    <h3>Dermatologie</h3>
-                </div>
-                <div class="service-card">
-                    <div class="service-image" style="background-image: url('images/orthopedics.jpg');"></div>
-                    <h3>Orthopédie</h3>
+                    <div class="service-image" style="background-image: url('images/new-products.jpg');"></div>
+                    <h3>Produits Nouveaux</h3>
+                    <p>Rencontrez un représentant pour explorer nos nouveaux produits et leur efficacité.</p>
                 </div>
             </div>
             <button class="btn-primary">Voir Tous les Services →</button>
         </section>
+
         <section class="why-choose-us">
-            <h2>Pourquoi Choisir Notre Service ?</h2>
+            <h2>Pourquoi Choisir GSB ?</h2>
             <div class="why-grid">
                 <div class="why-card">
-                    <h3>Experts Médicaux</h3>
-                    <p>Nos médecins sont des professionnels qualifiés et expérimentés dans leur domaine.</p>
+                    <h3>Experts en Médicaments</h3>
+                    <p>Nos représentants sont des experts dans les domaines pharmaceutiques et sont là pour vous aider à chaque étape.</p>
                 </div>
                 <div class="why-card">
                     <h3>Accessibilité 24/7</h3>
@@ -56,40 +50,21 @@
                 </div>
                 <div class="why-card">
                     <h3>Réservation Facile</h3>
-                    <p>Prendre un rendez-vous en quelques clics, simple et rapide.</p>
-                </div>
-            </div>
-        </section>
-        <section class="testimonials-section">
-            <h2>Ce Que Disent Nos Patients</h2>
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <p>"Le processus de réservation est super simple, et j'ai eu un rendez-vous rapidement. Je recommande vivement!"</p>
-                    <h4>- Pierre L.</h4>
-                </div>
-                <div class="testimonial-card">
-                    <p>"Des médecins compétents et attentionnés. Très satisfait de la qualité des services." </p>
-                    <h4>- Julie M.</h4>
-                </div>
-                <div class="testimonial-card">
-                    <p>"Excellente plateforme pour réserver en ligne. Rapide et efficace!"</p>
-                    <h4>- Thomas B.</h4>
+                    <p>Réservez un rendez-vous pour commander des médicaments en quelques clics.</p>
                 </div>
             </div>
         </section>
 
         <!-- Section Appel à l'Action -->
         <section class="cta-section">
-            <h2>Prêt à prendre rendez-vous ?</h2>
-            <p>Choisissez votre service médical et réservez en quelques clics !</p>
+            <h2>Prêt à Commander ?</h2>
+            <p>Réservez votre rendez-vous avec nos représentants GSB et obtenez les médicaments dont vous avez besoin.</p>
             <a href="reservation.html" class="btn-primary">Réservez Maintenant →</a>
         </section>
-
     </main>
 
     <?php 
     include '../partials/footer.php';
     ?>
 </body>
-
 </html>

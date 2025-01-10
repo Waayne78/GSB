@@ -1,0 +1,109 @@
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #14508b; /* Bleu principal */
+    padding: 10px 20px;
+    position: relative;
+    z-index: 1000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    height: 50px;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu-toggle span {
+    width: 25px;
+    height: 3px;
+    background: white;
+    border-radius: 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Animated menu toggle */
+.menu-toggle.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-toggle.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-toggle.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+    position: relative;
+}
+
+
+
+.menu li a:hover::after {
+    width: 100%; /* Animation de soulignement */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: flex;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        background: #14508b; /* Bleu principal */
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        width: 200px;
+        padding: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+
+    .menu.active {
+        display: flex;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .menu li {
+        text-align: center;
+        margin: 10px 0;
+    }
+}
+    

@@ -16,7 +16,6 @@
     ?>
 
     <main>
-        <!-- Section Services -->
         <section class="services-section">
             <h1>Explorez Nos Services Médicaux</h1>
             <p>Choisissez parmi notre gamme de services spécialisés pour prendre rendez-vous avec nos experts médicaux.</p>
@@ -41,15 +40,9 @@
                     <div class="service-image" style="background-image: url('images/orthopedics.jpg');"></div>
                     <h3>Orthopédie</h3>
                 </div>
-                <div class="service-card">
-                    <div class="service-image" style="background-image: url('images/psychiatry.jpg');"></div>
-                    <h3>Psychiatrie</h3>
-                </div>
             </div>
             <button class="btn-primary">Voir Tous les Services →</button>
         </section>
-
-        <!-- Section Pourquoi Choisir Nos Services -->
         <section class="why-choose-us">
             <h2>Pourquoi Choisir Notre Service ?</h2>
             <div class="why-grid">
@@ -67,8 +60,6 @@
                 </div>
             </div>
         </section>
-
-        <!-- Section Témoignages -->
         <section class="testimonials-section">
             <h2>Ce Que Disent Nos Patients</h2>
             <div class="testimonials-grid">

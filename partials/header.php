@@ -12,7 +12,6 @@
             <li><a href="../views/index.view.php">ACCUEIL</a></li>
             <li><a href="../views/booking.view.php">RÉSERVATION</a></li>
             <li><a href="../views/contact.view.php">CONTACT</a></li>
-            <li><a href="../views/help.view.php">NOUS AIDER</a></li>
         </ul>
     </nav>
 </header>

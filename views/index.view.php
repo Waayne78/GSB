@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="../styles/footer.css">
     <link rel="stylesheet" href="../styles/header.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
-
 </head>
 
 <body>
@@ -27,9 +26,7 @@
                         <button>Rechercher</button>
                     </div>
                 </div>
-                <div class="image-content">
-                    <img src="../assets/doctor.png" alt="Docteur GSB" />
-                </div>
+
             </div>
         </section>
 
@@ -49,6 +46,32 @@
                     <p>Vos données sont protégées avec les meilleurs standards.</p>
                 </div>
             </div>
+        </section>
+
+        <!-- Section Statistiques -->
+        <section class="statistics">
+            <h2>Nos Chiffres Clés</h2>
+            <div class="stats">
+                <div class="stat">
+                    <h3>500+</h3>
+                    <p>Médecins inscrits</p>
+                </div>
+                <div class="stat">
+                    <h3>2000+</h3>
+                    <p>Rendez-vous réservés chaque mois</p>
+                </div>
+                <div class="stat">
+                    <h3>98%</h3>
+                    <p>Taux de satisfaction des utilisateurs</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Appel à l'Action -->
+        <section class="cta">
+            <h2>Prêt à prendre rendez-vous ?</h2>
+            <p>Rejoignez des milliers d'utilisateurs satisfaits et prenez votre rendez-vous médical dès aujourd'hui.</p>
+            <button>Prendre un rendez-vous</button>
         </section>
     </main>
 

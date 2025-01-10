@@ -29,8 +29,6 @@
             <p>Pas encore inscrit ? <a href="register.html">Créer un compte</a></p>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2025 GSB - Tous droits réservés.</p>
-    </footer>
+    <?php include '../partials/footer.php'; ?>
 </body>
 </html>

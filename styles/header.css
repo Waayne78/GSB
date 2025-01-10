@@ -4,14 +4,22 @@ header {
     justify-content: space-between;
     align-items: center;
     background: #14508b; /* Bleu principal */
-    padding: 10px 20px;
-    position: relative;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
     z-index: 1000;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Ombre plus marquée */
+    transition: all 0.3s ease;
 }
 
 header .logo {
     height: 50px;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect for logo */
+header .logo:hover {
+    transform: scale(1.1);
 }
 
 /* Navigation */
@@ -30,8 +38,8 @@ nav {
 }
 
 .menu-toggle span {
-    width: 25px;
-    height: 3px;
+    width: 30px;
+    height: 4px;
     background: white;
     border-radius: 2px;
     transition: all 0.3s ease-in-out;
@@ -53,7 +61,7 @@ nav {
 .menu {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 30px;
     margin: 0;
     padding: 0;
 }
@@ -61,16 +69,20 @@ nav {
 .menu li a {
     text-decoration: none;
     color: white;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 1rem;
-    transition: color 0.3s ease, transform 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 15px;
+    transition: color 0.3s ease, transform 0.3s ease, border-bottom 0.3s ease;
     position: relative;
 }
 
-
-
-.menu li a:hover::after {
-    width: 100%; /* Animation de soulignement */
+/* Hover effect for links */
+.menu li a:hover {
+    color: #F1F0F0; /* Couleur plus claire sur hover */
+    border-bottom: 2px solid #F1F0F0; /* Souligné lumineux */
+    transform: translateY(-3px); /* Légère remontée */
 }
 
 /* Responsive styles */
@@ -86,10 +98,10 @@ nav {
         position: absolute;
         top: 60px;
         right: 20px;
-        width: 200px;
-        padding: 10px;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-        border-radius: 5px;
+        width: 250px;
+        padding: 20px;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
         opacity: 0;
         transform: translateY(-10px);
         transition: opacity 0.3s ease, transform 0.3s ease;
@@ -103,7 +115,11 @@ nav {
 
     .menu li {
         text-align: center;
-        margin: 10px 0;
+        margin: 15px 0;
+    }
+
+    .menu li a {
+        font-size: 1.2rem;
+        padding: 12px 20px;
     }
 }
-    
